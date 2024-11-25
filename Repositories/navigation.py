@@ -21,8 +21,8 @@ def make_sidebar():
         st.write("")
 
         if st.session_state.get("logged_in", False):
-            st.page_link("pages/page1.py", label="Interreg Assistant") #icon="🔒"
-            st.page_link("pages/page2.py", label="Saved Threads") #icon="🕵️"
+            st.page_link("pages/Main.py", label="Interreg Assistant") #icon="🔒"
+            st.page_link("pages/SaveThreads.py", label="Saved Threads") #icon="🕵️"
 
             st.write("")
             st.write("")
